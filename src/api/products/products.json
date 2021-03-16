@@ -1,0 +1,23 @@
+[
+    {
+        "productID": "sdgfh-345" ,
+        "productName": "John Brown",
+        "price": 32,
+        "startRating": 3.5,
+        "imageURI":"New York No. 1 Lake Park"
+      },
+      {
+        "productID": "djhfd-678",
+        "productName": "Jim Green",
+        "price": 42,
+        "startRating": 4.3,
+        "imageURI": "London No. 1 Lake Park"
+      },
+      {
+        "productID": "dfjdf-897",
+        "productName": "Joe Black",
+        "price": 32,
+        "startRating": 4.8,
+        "imageURI": "Sidney No. 1 Lake Park"
+      }
+]

@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'nk-gallery';
+  display : boolean = false;
+
+  constructor() {}
+
+  ngOnInit() {
+  }
+
+  onOpen() {
+    let element = document.getElementById("open");
+    element?.classList.toggle("active");
+    this.display = !this.display;
+  }
 }

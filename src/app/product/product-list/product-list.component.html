@@ -1,0 +1,67 @@
+<!-- <div *ngIf = "flag; else displayTable">
+    <div class="picture"></div>
+  </div> 
+  
+   <ng-template #displayTable> 
+    <div class="row">
+      <div class="col-md-2">
+        Filter by:
+      </div>
+      <div class="col-md-3">
+        <input nz-input placeholder="Filter by" style="width: 150px" [(ngModel)]="listfilter" />
+      </div>
+    </div>
+    <div *ngIf = message1>
+      <nz-alert nzType="success" nzMessage={{message1}}></nz-alert>
+    </div>
+    <nz-table #basicTable [nzData]="filterList">
+      <thead>
+        <tr>
+          <th>
+              <button nz-button nzType="primary" (click)='toggleImage()'>
+                  {{showImage ? 'Hide' : 'Show'}} Image
+              </button>
+          </th>
+          <th>ArtID</th>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Rating</th>
+          <th>Product Detail</th>
+        </tr>
+      </thead>
+          <tbody>
+            <tr *ngFor="let data of basicTable.data">
+              <td>
+                  <img *ngIf='showImage'
+                       [src]='data.imageUrl'
+                       [title]='data.productName'
+                       [style.width.px]='imageWidth'
+                       [style.margin.px]='imageMargin'>
+              </td>
+              <td>{{ data.productID | convertToSpaces : '-' }}</td>
+              <td>{{ data.productName }}</td>
+              <td>{{ data.price }}</td>
+              <td>
+                <app-stars [rating]='data.startRating' (notify)='onNotify($event)'></app-stars>
+              </td>
+              <td>
+                <a routerLink="/app-product-detail/{{data.productID}}">Product Detail</a>
+                <router-outlet></router-outlet>
+              </td>
+            </tr>
+          </tbody>
+    </nz-table> -->
+  <!-- </ng-template> -->
+  <div class="wrapper">
+    <div class="section parallax bg1">
+      <h1>Such Adorableness</h1>
+      </div>
+    <div class="section">
+      <h1>Boring</h1>
+    </div>
+    <div class="section parallax bg2">
+      <h1>SO FWUFFY AWWW</h1>
+      </div>
+  </div>
+  <!-- </ng-template> -->
+  
