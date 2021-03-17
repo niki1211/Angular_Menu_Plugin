@@ -1,20 +1,16 @@
 
 .frow {
-    display: -webkit-box;
     display: flex;
-    flex-wrap: wrap;
-    -webkit-box-pack: center;
+	mix-blend-mode: difference;
 	justify-content: center;
 	margin-top: 40px;
 }
 
 .menu-toggle{
-	top: 50px;
-	flex:0 0 auto;
-	width: 15%;
-    height: 20%;
+	top: 16%;
+	left: 8%;
 	cursor:pointer;
-	position:relative;
+	position:absolute;
 }
 .hamburger,.cross{
 	position:absolute;
@@ -83,9 +79,6 @@
 }
 
 .menu-body {
-	top: 20%;
-    height: 100vh;
-    width: 100%;
 	position: absolute;
 	z-index: 100;
 	opacity: 0.9;
