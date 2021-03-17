@@ -1,20 +1,4 @@
-.picture {
-    width: 70px;
-    height: 59px;
-    background: url(/assets/image/paint.svg) no-repeat center;
-    background-size: cover;
-    position: absolute;
-    animation: myfirst 2s infinite;
-    }
-    @keyframes myfirst {
-        0%   { left: 40%; top: 40%;}
-        25%  { left: 50%; top: 40%;}
-        50%  { left: 50%; top: 50%;}
-        75%  { left: 40%; top: 50%;}
-        100% { left: 40%; top: 40%;}
-      }
-    
-    body,html{margin:0;padding:0;}
+ body,html{margin:0;padding:0;}
     
     h1 {
       color: #ffffff;
@@ -50,11 +34,17 @@
     }
     
     .bg1::after {
-      background-image: url('https://placekitten.com/g/900/700');
+      background-image: url('../../../assets/images/File_003.jpeg');
     }
-    
+
+
     .bg2::after {
-      background-image: url('https://placekitten.com/g/800/600');
+      background-image: url('../../../assets/images/File_016.jpeg');
+    }
+
+    
+    .bg3::after {
+      background-image: url('../../../assets/images/File_004.jpeg');
     }
     
     
