@@ -10,6 +10,10 @@
       overflow-y: auto;
       perspective: 2px;
     }
+
+    ::-webkit-scrollbar {
+      display: none;
+  }
     
     .section {
       position: relative;
